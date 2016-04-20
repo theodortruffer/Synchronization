@@ -8,7 +8,7 @@ exec 'git push github --quiet &'
 
 # This file was placed here by GitLab. It makes sure that your pushed commits
 # will be processed properly.
-
+#hello
 refs = ARGF.read
 key_id  = ENV['GL_ID']
 repo_path = Dir.pwd
@@ -26,3 +26,4 @@ else
   exit 1
 end
 
+##notest
